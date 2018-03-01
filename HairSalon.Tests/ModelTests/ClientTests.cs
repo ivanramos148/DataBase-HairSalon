@@ -162,6 +162,6 @@ namespace HairSalon.Tests
       //Assert
       Assert.AreEqual("Ivan", foundStylist);
     }
-    
+
   }
 }

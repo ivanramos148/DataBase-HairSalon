@@ -21,7 +21,7 @@
             @foreach(var client in @Model.GetClients())
             {
               <li>@client.GetClientName()</li>
-              <form action="/clients/@client.GetId()/delete" method="post">
+              <form action="/stylists/delete" method="post">
                 <button type="submit" name="button" class="btn-primary">Delete this Client</button><br>
               </form>
 

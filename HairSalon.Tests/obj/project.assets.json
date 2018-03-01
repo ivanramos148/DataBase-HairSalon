@@ -10725,22 +10725,22 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Guest/Desktop/HairSalon.Solution/HairSalon.Tests/HairSalon.Tests.csproj",
+      "projectUniqueName": "/Users/Guest/Desktop/HairSalon.Solutions1/HairSalon.Tests/HairSalon.Tests.csproj",
       "projectName": "HairSalon.Tests",
-      "projectPath": "/Users/Guest/Desktop/HairSalon.Solution/HairSalon.Tests/HairSalon.Tests.csproj",
-      "outputPath": "/Users/Guest/Desktop/HairSalon.Solution/HairSalon.Tests/obj/",
+      "projectPath": "/Users/Guest/Desktop/HairSalon.Solutions1/HairSalon.Tests/HairSalon.Tests.csproj",
+      "outputPath": "/Users/Guest/Desktop/HairSalon.Solutions1/HairSalon.Tests/obj/",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
       "files": {
-        "lib/netcoreapp1.1/HairSalon.Tests.dll": "/Users/Guest/Desktop/HairSalon.Solution/HairSalon.Tests/bin/placeholder/netcoreapp1.1/HairSalon.Tests.dll"
+        "lib/netcoreapp1.1/HairSalon.Tests.dll": "/Users/Guest/Desktop/HairSalon.Solutions1/HairSalon.Tests/bin/placeholder/netcoreapp1.1/HairSalon.Tests.dll"
       },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "/Users/Guest/Desktop/HairSalon.Solution/HairSalon/HairSalon.csproj": {
-              "projectPath": "/Users/Guest/Desktop/HairSalon.Solution/HairSalon/HairSalon.csproj"
+            "/Users/Guest/Desktop/HairSalon.Solutions1/HairSalon/HairSalon.csproj": {
+              "projectPath": "/Users/Guest/Desktop/HairSalon.Solutions1/HairSalon/HairSalon.csproj"
             }
           }
         }

@@ -16,15 +16,9 @@ A program in which a user can submit clients and stlylists
     * Example: "ClientName"
     * Example: click and deletes ClientName
     * Result: ClientName deleted from database and View
-  * User can delete stylists name
-    * Example: "StylistName"
-    * Example: click and deletes StylistName
-    * Result: StylistName deleted from database and View
-  * User can delete both stylists name and client name
-    * Example: "StylistName"
-    * Example: "ClientName"
-    * Example: click and deletes Delete All
-    * Result: Everything has been deleted from database and View
+  * User is able to view clients name
+  * User is able to view stylist's name
+  * User can view both Stylist and Clients Names on the same page
 
 
 ### Installing

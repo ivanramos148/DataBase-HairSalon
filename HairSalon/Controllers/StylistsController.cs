@@ -25,7 +25,7 @@ namespace HairSalon.Controllers
         List<Stylist> allStylists = Stylist.GetAll();
         return RedirectToAction("Index", "Home");
       }
-      
+
 
       [HttpGet("/stylists/{id}/profile")]
       public ActionResult Profile(int id)

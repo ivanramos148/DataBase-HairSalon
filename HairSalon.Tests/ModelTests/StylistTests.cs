@@ -180,7 +180,7 @@ namespace HairSalon.Tests
 
       //Assert
       CollectionAssert.AreEqual(testClients, resultClients);
-      
+
     }
   }
 }
