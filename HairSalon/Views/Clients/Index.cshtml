@@ -1,0 +1,38 @@
+@{
+  Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class=jumbotron>
+      <h1></h1>
+    </div>
+    <h4>Client</h4>
+      @foreach(var client in Model)
+      {
+      <li>@client.GetClientName()</li>
+      }
+
+    <h4>Stylist</h4>
+      @foreach(var client in Model)
+      {
+        <li>@client.GetName(@client)</li>
+      }
+    <h4>Delete</h4>
+      @foreach(var client in Model)
+      {
+        <form action="/clients/@client.GetId()/delete" method="post">
+        <button type="submit" name="button" class="btn-primary">Delete this Client</button><br>
+        </form>
+      }
+
+    <p><a href="/">Home.</a></p>
+    </div>
+
+  </body>
+</html>
