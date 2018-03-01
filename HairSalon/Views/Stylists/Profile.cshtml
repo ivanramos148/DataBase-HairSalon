@@ -1,0 +1,35 @@
+@{
+  Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h2>
+      @Model.GetStylistName()
+    </h2>
+      @if(@Model.GetClients().Count == 0)
+      {
+          <p><a href="/stylists/@Model.GetId()/clients/new">Add Clients</a></p>
+      }
+      @if(@Model.GetClients().Count > 0)
+      {
+            @foreach(var client in @Model.GetClients())
+            {
+              <li>@client.GetClientName()</li>
+              <form action="/clients/@client.GetId()/delete" method="post">
+                <button type="submit" name="button" class="btn-primary">Delete this Client</button><br>
+              </form>
+
+            }
+          <br>
+          <br>
+          <p><a href="/stylists/@Model.GetId()/clients/new">Make New Client</a></p>
+      }
+      <p><a href="/">Home.</a></p>
+  </body>
+</html>
