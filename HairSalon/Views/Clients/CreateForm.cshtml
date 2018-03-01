@@ -1,0 +1,25 @@
+@{
+  Layout = "_Layout";
+}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class=jumbotron>
+    <h2>Enter client for @Model.GetStylistName() </h2>
+    </div>
+    <form action="/stylists/@Model.GetId()/clients/new" method="post">
+      <label for="new-client-name">Enter Client's Name:</label>
+      <input id="new-client-name" name="new-client-name" type="text">
+      <div hidden>
+      <input type="radio" id="stylist-id" name="stylist-id" value="@Model.GetId()" checked="true" >
+      </div>
+      <button type="submit" class="btn-primary">Save Client</button><br>
+    </form>
+    <br>
+    <p><a href="/">Home.</a></p>
+  </body>
+</html>
